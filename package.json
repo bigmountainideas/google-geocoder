@@ -1,0 +1,25 @@
+{
+  "name": "google-geocoder",
+  "version": "0.0.1",
+  "description": "Wrapper for Google's Geocoder API with mongodb request cache.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "Google",
+    "geocoder",
+    "geocoder",
+    "location"
+  ],
+  "author": "Jovan <jovan@bigmountainideas.com>",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "~0.16.0",
+    "mongodb": "~1.3.23"
+  },
+  "devDependencies": {
+    "should": "~3.1.3",
+    "mocha": "~1.17.1"
+  }
+}
