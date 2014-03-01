@@ -1,5 +1,6 @@
 var geocoder = require('../')
   , should = require('should')
+  , apiKey = require('./fixtures/google-api-key')
 ;
 
 
@@ -25,7 +26,7 @@ describe('GeoCoder', function(){
   describe('with valid api key', function(){
 
     var geo = geocoder({
-      key: 'AIzaSyAfRqctQW5RN_lcaDcXdeLtSDNgx_aMpyo'
+      key: apiKey
     });
 
 
