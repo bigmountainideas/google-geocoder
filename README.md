@@ -30,6 +30,11 @@ geo.find('223 Edenbridge Dr, Toronto', function(err, res){
 * [Obtaining an API Key](https://developers.google.com/maps/documentation/geocoding/#api_key)
 
 
+## Testing
+
+Create file `test\fixtures\google-api-key.js` with content `module.exports = 'your API key from google';` then run `make test`
+
+
 ## Todo
 * Add persistant storage model
 
