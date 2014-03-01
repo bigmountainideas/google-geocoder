@@ -7,9 +7,9 @@
     "test": "make test"
   },
   "keywords": [
-    "Google",
+    "Google Geocoder",
     "geocoder",
-    "geocoder",
+    "geocode",
     "location"
   ],
   "repository": {
