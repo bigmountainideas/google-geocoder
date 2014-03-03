@@ -1,6 +1,6 @@
 {
   "name": "google-geocoder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Wrapper for Google's Geocoder API with mongodb request cache.",
   "main": "index.js",
   "scripts": {
