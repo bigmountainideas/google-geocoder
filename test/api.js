@@ -1,6 +1,6 @@
 var geocoder = require('../')
   , should = require('should')
-  , apiKey = require('./fixtures/google-api-key')
+  , apiKey = require('./fixtures/google-api-key') || process.env.GOOGLE_GEOCODE_API_KEY
 ;
 
 
@@ -106,7 +106,7 @@ describe('GeoCoder', function(){
         })
 
         it('should get city', function(done){
-          validAddressResults[0].city.short_name.should.match(/New York/i);
+          validAddressResults[0].city.short_name.should.match(/NY/i);
           done()
         })
 

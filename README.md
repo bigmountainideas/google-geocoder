@@ -4,6 +4,13 @@ google-geocoder
 Wrapper for Google's Geocoder API.
 
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Build][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+
+
+
 ## Installation
     $ npm install google-geocoder
 
@@ -43,6 +50,7 @@ Create file `test\fixtures\google-api-key.js` with content `module.exports = 'yo
 
 (The MIT License)
 
+```
 Copyright (c) 20014 Big Mountain Ideas + Innovations <jovan@bigmountainideas.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -63,3 +71,14 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+
+[npm-image]: https://img.shields.io/npm/v/google-geocoder.svg
+[npm-url]: https://npmjs.org/package/google-geocoder
+[downloads-image]: https://img.shields.io/npm/dm/google-geocoder.svg
+[downloads-url]: https://npmjs.org/package/google-geocoder
+[travis-image]: https://img.shields.io/travis/bigmountainideas/google-geocoder/master.svg
+[travis-url]: https://travis-ci.org/bigmountainideas/google-geocoder
+[coveralls-image]: https://coveralls.io/repos/bigmountainideas/google-geocoder/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/r/bigmountainideas/google-geocoder?branch=master

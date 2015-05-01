@@ -4,7 +4,8 @@
   "description": "Wrapper for Google's Geocoder API with mongodb request cache.",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "test-cov": "make test-cov"
   },
   "keywords": [
     "Google Geocoder",
@@ -25,7 +26,10 @@
   },
   "devDependencies": {
     "should": "~3.1.3",
-    "mocha": "~1.17.1"
+    "mocha": "~1.17.1",
+    "mocha-lcov-reporter": "0.0.2",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.13"
   },
   "engines": {
     "node": ">= 0.10.0"
