@@ -1,8 +1,11 @@
 var geocoder = require('../')
   , should = require('should')
-  , apiKey = require('./fixtures/google-api-key') || process.env.GOOGLE_GEOCODE_API_KEY
+  , apiKey = process.env.GOOGLE_GEOCODE_API_KEY
 ;
 
+if( !apiKey){
+  apiKey = require('./fixtures/google-api-key');
+}
 
 
 describe('GeoCoder', function(){
