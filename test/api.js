@@ -104,7 +104,7 @@ describe('GeoCoder', function(){
 
         it('should match address', function(done){
           validAddressResults.length.should.be.greaterThan(0);
-          validAddressResults[0].formatted_address.should.match(/289 10th Avenue, New York/i);
+          validAddressResults[0].formatted_address.should.match(/289 10th Ave, New York/i);
           done()
         })
 
