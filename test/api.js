@@ -109,7 +109,7 @@ describe('GeoCoder', function(){
         })
 
         it('should get city', function(done){
-          validAddressResults[0].city.short_name.should.match(/NY/i);
+          validAddressResults[0].city.short_name.should.match(/New York/i);
           done()
         })
 
@@ -138,10 +138,26 @@ describe('GeoCoder', function(){
 
     it('should find no results', function(done){
 
-      geo.find('xxy', function(err, res){
+      geo.find('xx2342adsady', function(err, res){
         res.should.have.length(0);
         done()
       });
+
+    })
+
+
+    describe('reverse lookup', function() {
+
+      it('should find a location for address', function(done) {
+
+        geo.reverseFind(43.70418445395268, -79.76029111296589, function(err, res) {
+
+          should(res.length).be.above(0);
+
+          done(err);
+        });
+
+      })
 
     })
 

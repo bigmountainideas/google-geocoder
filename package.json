@@ -1,6 +1,6 @@
 {
   "name": "google-geocoder",
-  "version": "0.2.4",
+  "version": "0.2.0",
   "description": "A wrapper for Google's Geocoder API",
   "main": "index.js",
   "scripts": {
